@@ -2,8 +2,8 @@ class Dote < Formula
   desc "dot e command"
   homepage "https://github.com/Araa-104/homebrew-dote"
   url "https://raw.githubusercontent.com/Araa-104/homebrew-dote/main/dote.c"
-  sha256 "6be7defd3eca4430ae2647963fd13544e894b885200b74bb45cdbc62ed32d207"
-  version "1.0.1"
+  sha256 "829273d00f8aad98f3295374efe542871086b24719cada99d011916238178d55"
+  version "1.0.2"
 
   def install
     system ENV.cc, "dote.c", "-o", "dote"
